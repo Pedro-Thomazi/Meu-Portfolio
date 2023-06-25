@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin: 50px auto;
+}
+
+.bodyThanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    color: #fff;
+    background: #1f1f1f;
+    width: 400px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bodyThanks hr{
+    width: 100%;
+}
+
+.bodyThanks img {
+    width: 350px;
+}
+
+.bodyThanks a {
+    text-decoration: none;
+    font-size: 2em;
+    background: #fff;
+    color: #1f1f1f;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}

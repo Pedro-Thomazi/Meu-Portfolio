@@ -1,0 +1,188 @@
+.bodyMain {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: -30px 20px 0 20px;
+}
+
+.bodyMain h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.bodyMain hr {
+    width: 100%;
+}
+
+.textMain {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.textMain div ul li a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.firstText {
+    background: #1f1f1f;
+    color: #fff;
+    width: 500px;
+    padding: 10px;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstText div {
+    display: flex;
+    flex-direction: column;
+}
+
+.myName{
+    font-weight: 600;
+    padding: 5px;
+    margin-top: 5px;
+    color: #000;
+    background: #fff;
+}
+
+.myPhoto {
+    filter: grayscale(100);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    align-self: center;
+    transition: .5s;
+}
+
+.myPhoto:hover {
+    filter: grayscale(0);
+}
+
+
+.firstText div p {
+    margin-bottom: 0px;
+}
+
+.myKnowledge {
+    background: #c0c0c0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+.myKnowledge i {
+    color: #1f1f1f;
+    font-size: 2em;
+    margin: 10px;
+    transition: .4s;
+}
+
+.myKnowledge i:hover {
+    font-size: 2.7em;
+}
+
+.secondText {
+    border-left: 2px solid black;
+    width: 80%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.secondText p {
+    margin-top: 0;
+}
+
+.secondText div {
+    display: flex;
+    flex-direction: row;
+}
+
+.secondText div p {
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    width: 150%;
+}
+
+.secondText ul {
+    list-style: decimal-leading-zero inside;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.mySecondPhoto2,
+.mySecondPhoto {
+    border-radius: 10px;
+    max-width: 400px;
+    margin-right: 10px;
+    filter: grayscale(100);
+    align-self: center;
+    transition: .5s;
+}
+
+.mySecondPhoto2:hover {
+    filter: grayscale(0);
+}
+
+.mySecondPhoto:hover {
+    filter: grayscale(0);
+}
+
+.mySecondPhoto2 {
+    display: none;
+}
+
+@media (max-width: 1250px) {
+    
+.mySecondPhoto {
+    display: none;
+}
+
+.mySecondPhoto2 {
+    display: block;
+}
+}
+@media (max-width: 1000px) {
+    .firstText div,
+    .secondText div {
+        flex-direction: column;
+    }
+
+    .firstText div img {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .secondText div p {
+        width: auto;
+    }
+
+    .textMain {
+        flex-direction: column;
+    }
+
+    .firstText,
+    .secondText {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .secondText {
+        border-top: 2px solid black;
+        border-left: none;
+    }
+
+    .mySecondPhoto {
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+}

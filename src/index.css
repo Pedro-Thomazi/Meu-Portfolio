@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  background: url('./image-bg/fundo.jpg');
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: scroll;
+  font-family: 'Playfair Display', serif;
+}

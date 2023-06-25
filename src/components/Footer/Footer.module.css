@@ -1,0 +1,44 @@
+.bodyFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1f1f1f;
+    color: #fff;
+    padding: 20px;
+}
+
+.bodyFooter p {
+    margin-right: 20px;
+    font-size: 1.4em;
+}
+
+.bodyFooter .label {
+    cursor: pointer;
+    background: #ccc;
+    color: #1f1f1f;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 10px;
+    transition: .4s;
+    margin-bottom: 20px;
+}
+
+.bodyFooter .label:hover {
+    background: #000000;
+    color: #ccc;
+}
+
+.bodyFooter .input{
+    display: none;
+}
+
+.myForm {
+    display: none;
+    transition: .4s;
+}
+
+.bodyFooter .input:checked + .myForm {
+    display: block;
+}

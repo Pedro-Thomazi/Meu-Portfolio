@@ -1,0 +1,53 @@
+.bodyForm {
+    display: flex;
+    flex-direction: column;
+    background: #ccc;
+    width: 400px;
+    height: auto;
+    font-size: 1.4em;
+    border-radius: 10px;
+}
+
+.bodyForm label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.bodyForm label span {
+    margin: 10px 0px;
+    color: #1f1f1f;
+}
+
+.bodyForm label input {
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    transition: .4s;
+}
+
+.bodyForm label input:focus {
+    color: #ccc;
+    background: #1f1f1f;
+}
+
+.bodyForm label textarea {
+    height: 150px;
+}
+
+.bodyForm input[type='submit'] {
+    cursor: pointer;
+    background: #1f1f1f;
+    color: #ccc;
+    width: 50%;
+    height: 50px;
+    margin: 30px 0px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.bodyForm input[type='submit']:hover {
+    color: #1f1f1f;
+    background: #ccc;
+}
