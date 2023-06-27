@@ -31,7 +31,7 @@ const ContactForm = () => {
                 </textarea>
             </label>
 
-            <input type="hidden" name="_next" value="http://localhost:3000/obrigado-pelo-contato"></input>
+            <input type="hidden" name="_next" value="https://meu-portfolio-delta-eight.vercel.app/obrigado-pelo-contato"></input>
             <input type="submit" value='Enviar' />
         </form>
     )
