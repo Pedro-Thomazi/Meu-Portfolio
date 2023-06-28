@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     margin: -30px 20px 0 20px;
+    text-align: justify;
 }
 
 .bodyMain h2 {
@@ -22,7 +23,13 @@
 
 .textMain div ul li a {
     text-decoration: none;
+    margin: 10px;
     color: #1f1f1f;
+    transition: .4s;
+}
+
+.textMain div ul li a:hover {
+    border-bottom: 2px solid #c0c0c0;
 }
 
 .firstText {
@@ -46,6 +53,7 @@
     margin-top: 5px;
     color: #000;
     background: #fff;
+    text-align: left;
 }
 
 .myPhoto {
@@ -97,7 +105,7 @@
 }
 
 .secondText p {
-    margin-top: 0;
+    margin: 0 20px 0 0;
 }
 
 .secondText div {
@@ -146,6 +154,7 @@
 }
 
 .mySecondPhoto2 {
+    margin: 15px 0;
     display: block;
 }
 }
